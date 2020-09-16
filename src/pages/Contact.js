@@ -1,5 +1,6 @@
 import React from "react";
 import Subtitles from "../components/subtitles/subtitles";
+import ImageLink from "../components/image-link/image-link";
 
 const Contact = () => {
   return (
@@ -13,6 +14,7 @@ const Contact = () => {
         </p>
         <p>And for more informations</p>
       </Subtitles>
+      <ImageLink></ImageLink>
     </>
   );
 };
