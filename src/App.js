@@ -8,6 +8,7 @@ import Aboutme from "./pages/Aboutme";
 import Interests from "./pages/Interests";
 import Experiences from "./pages/Experiences";
 import Education from "./pages/Education";
+import Contact from "./pages/Contact";
 
 const App = () => {
   return (
@@ -23,6 +24,9 @@ const App = () => {
         </Route>
         <Route path="/interests">
           <Interests />
+        </Route>
+        <Route path="/contact">
+          <Contact />
         </Route>
         <Route path="/">
           <Aboutme />
