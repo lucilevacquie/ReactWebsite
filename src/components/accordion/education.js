@@ -19,7 +19,7 @@ const accordionData1 = [
         </ul>
         My FreeCodeCamp profile :{" "}
         <a
-          className="links"
+          className="links-education"
           target="none"
           href="https://www.freecodecamp.org/lucile-vacquie"
         >
