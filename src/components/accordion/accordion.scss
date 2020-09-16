@@ -1,0 +1,35 @@
+.accordion-wrapper {
+  width: 70%;
+  margin: auto;
+}
+.accordion-title {
+  background-color: rgba(140, 217, 179, 0.6);
+  color: black;
+  font-family: "Antic Slab", serif;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 0.7rem;
+  margin-top: 1rem;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  text-align: center;
+}
+
+.active,
+.accordion-title:hover {
+  background-color: rgba(102, 204, 153, 0.6);
+}
+
+.accordion-panel {
+  padding: 0 18px;
+  overflow: hidden;
+  text-align: justify;
+  font-family: "Antic Slab", serif;
+}
+
+@media screen and (max-width: 768px) {
+  .accordion-title {
+    font-size: 1rem;
+  }
+}

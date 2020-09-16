@@ -1,0 +1,13 @@
+.container {
+  font-family: "Antic Slab", serif;
+  text-align: center;
+  margin: 1rem 6rem;
+  padding-top: 1rem;
+  line-height: 1.6rem;
+}
+@media screen and (max-width: 768px) {
+  .container {
+    margin: 0.5rem 2rem;
+    line-height: 1.2rem;
+  }
+}
