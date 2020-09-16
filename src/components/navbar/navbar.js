@@ -38,7 +38,7 @@ class Navbar extends React.Component {
         <ul className={this.state.toggle ? "navLinks" : "navLinks"}>
           {navTitles.map((objLink, i) => {
             return (
-              <li key={i}>
+              <li className="links" key={i}>
                 <Link to={objLink.link}>{objLink.text}</Link>
               </li>
             );
