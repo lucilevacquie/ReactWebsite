@@ -3,8 +3,8 @@
   margin: auto;
 }
 .accordion-title {
-  background-color: rgba(140, 217, 179, 0.6);
-  color: black;
+  background-color: rgba(102, 204, 153, 0.7);
+  color: rgb(46, 46, 31);
   font-family: "Antic Slab", serif;
   font-size: 1.5rem;
   cursor: pointer;
@@ -18,7 +18,7 @@
 
 .active,
 .accordion-title:hover {
-  background-color: rgba(102, 204, 153, 0.6);
+  background-color: rgba(57, 172, 115, 0.7);
 }
 
 .accordion-panel {

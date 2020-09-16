@@ -15,9 +15,16 @@ const accordionData1 = [
       <p>
         <ul className="liste-education">
           <li>100% Responsive web design certification</li>
-          <li>70% JavaScript algorithms and Data structure certification</li>
+          <li>84% JavaScript algorithms and Data structure certification</li>
         </ul>
-        My FreeCodeCamp profile : @lucile-vacquie My GitHub : lucilevacquie
+        My FreeCodeCamp profile :{" "}
+        <a
+          className="links"
+          target="none"
+          href="https://www.freecodecamp.org/lucile-vacquie"
+        >
+          @lucile-vacquie
+        </a>
       </p>
     ),
   },
@@ -53,7 +60,16 @@ const accordionData2 = [
               (alone and team).
             </li>
           </ul>
-          <p>Click here to know more about this master's degree.</p>
+          <p>
+            <a
+              className="links"
+              target="none"
+              href="http://formations.univ-brest.fr/fr/index/sciences-technologies-sante-STS/master-XB/master-biologie-sante-program-fr_rne_0290346u_prog6841/parcours-alimentation-droit-nutrition-sante-subprogram-parcours-structure-modele-2.html?search-keywords=ADNS'"
+            >
+              Click here
+            </a>{" "}
+            to know more about this master's degree.
+          </p>
         </p>
       </p>
     ),
@@ -76,7 +92,16 @@ const accordionData2 = [
         <p>
           Study of how living organisms function and interact with other
           organisms and/or environment.
-          <p>Click here to know more about this bachelor's degree.</p>
+          <p>
+            <a
+              className="links"
+              target="none"
+              href="http://formations.univ-brest.fr/fr/index/sciences-technologies-sante-STS/licence-XA/licence-mention-sciences-de-la-vie-program-fr_rne_0290346u_prog4024/parcours-biologie-des-organismes-et-des-populations-environnement-subprogram-2.html?search-keywords=biologie"
+            >
+              Click here
+            </a>{" "}
+            to know more about this bachelor's degree.
+          </p>
         </p>
       </p>
     ),
@@ -105,7 +130,16 @@ const accordionData2 = [
             </li>
           </ul>
         </p>
-        <p>Click here to know more about this technical degree.</p>
+        <p>
+          <a
+            className="links"
+            target="none"
+            href="http://formations.univ-brest.fr/fr/index/sciences-technologies-sante-STS/dut-CB/dut-genie-biologique-quimper-program-fr_rne_0290346u_prog12020/option-industries-alimentaires-et-biologiques-subprogram-2.html?search-keywords=biologie"
+          >
+            Click here
+          </a>{" "}
+          to know more about this technical degree.
+        </p>
       </p>
     ),
   },

@@ -5,9 +5,9 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Navbar from "./components/navbar/navbar";
 import Title from "./components/title/title";
 import Aboutme from "./pages/Aboutme";
-import Interests from "./pages/Interests";
 import Experiences from "./pages/Experiences";
 import Education from "./pages/Education";
+import Interests from "./pages/Interests";
 import Contact from "./pages/Contact";
 
 const App = () => {

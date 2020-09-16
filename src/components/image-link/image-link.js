@@ -2,6 +2,7 @@ import React from "react";
 import "./image-link.scss";
 import Instagram from "../../assets/instagram.png";
 import Linkedin from "../../assets/linkedIn.png";
+import Github from "../../assets/github.png";
 
 const images = [
   {
@@ -11,6 +12,10 @@ const images = [
   {
     img: Linkedin,
     link: "https://www.linkedin.com/in/lucile-vacqui%C3%A929/",
+  },
+  {
+    img: Github,
+    link: "https://github.com/lucilevacquie",
   },
 ];
 
