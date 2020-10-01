@@ -50,7 +50,7 @@ const ShareButton = () => {
         style={{ display: show ? "block" : "none" }}
       >
         <div id="modal" onClick={(e) => e.stopPropagation()}>
-          <p>Share it with the world!</p>
+          <p id="text">Share it with the world!</p>
           <div id="links">
             {Data.map((item, index) => (
               <a

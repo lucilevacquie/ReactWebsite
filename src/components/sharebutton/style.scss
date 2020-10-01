@@ -41,13 +41,18 @@
   width: 30%;
 }
 
+#text {
+  text-align: center;
+}
+
+#links {
+  text-align: center;
+}
+
 #icons {
   padding: 1rem;
   width: 50px;
-  @media (max-width: 768px) {
-    width: 30px;
-    padding: 5px;
-  }
+  margin: auto;
 }
 
 #share-mobile-container {
