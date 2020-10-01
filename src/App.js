@@ -9,6 +9,8 @@ import Experiences from "./pages/Experiences";
 import Education from "./pages/Education";
 import Interests from "./pages/Interests";
 import Contact from "./pages/Contact";
+import ShareButton from "./components/sharebutton/sharebutton";
+import ShareMobile from "./components/sharebutton/sharemobile";
 
 const App = () => {
   return (
@@ -32,6 +34,8 @@ const App = () => {
           <Aboutme />
         </Route>
       </Switch>
+      <ShareButton />
+      <ShareMobile />
     </BrowserRouter>
   );
 };
