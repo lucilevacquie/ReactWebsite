@@ -31,7 +31,7 @@ const Carousel = (props) => {
             <div className="slick-slide" key={index}>
               <img className="slick-slide-image" src={slide.img} alt="" />
               {slide.label && <div className="slide-label">{slide.label}</div>}
-              {slide.link && <a href={slide.link} className="slide-link" target="_blank">Link to my GitHub</a>}
+              {slide.link && <a href={slide.link} className="slide-link" target="_blank" rel="noopener noreferrer">Link to my GitHub</a>}
             </div>
           ))}
         </Slider>
