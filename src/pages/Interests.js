@@ -7,7 +7,7 @@ import Subtitles from "../components/subtitles/subtitles";
 const Interests = () => {
   return (
     <>
-      <Subtitles>Painting</Subtitles>
+      <Subtitles>Painting and digital illustration</Subtitles>
       <Carousel1 />
       <Subtitles>Traveling</Subtitles>
       <Carousel2 />

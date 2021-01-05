@@ -5,6 +5,7 @@ import slide2 from "../../assets/space.jpg";
 import slide3 from "../../assets/moon.jpg";
 import slide4 from "../../assets/deer.jpg";
 import slide5 from "../../assets/flowerInTheNight.jpg";
+import slide6 from "../../assets/colorful-night.png";
 
 const slidesData = [
   {
@@ -21,6 +22,9 @@ const slidesData = [
   },
   {
     img: slide5,
+  },
+  {
+    img: slide6,
   },
 ];
 
