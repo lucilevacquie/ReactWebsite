@@ -14,8 +14,9 @@ const accordionData1 = [
     text: (
       <p>
         <ul className="liste-education">
-          <li>100% Responsive web design certification</li>
-          <li>84% JavaScript algorithms and Data structure certification</li>
+          <li>Responsive web design certification</li>
+          <li>JavaScript algorithms and Data structure certification</li>
+          <li>Front end librairies certification</li>
         </ul>
         My FreeCodeCamp profile :{" "}
         <a
